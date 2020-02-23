@@ -1,0 +1,20 @@
+#profile-photo {
+    width: 28%;
+}
+
+#profile-photo:hover {
+    width: 30%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+#card-project {
+    width: 35%;
+}
+
+#contact-person {
+    text-decoration: none;
+}
