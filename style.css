@@ -1,48 +1,58 @@
-                                    /* NAVBAR */
-                                
-                                .navbar-brand {
-                                    font-family: 'Roboto Slab';
-                                    font-size: 24px;
-                                }
-                                
-                                .nav-link {
-                                    font-family: 'Roboto Slab';
-                                    font-size: 18px;
-                                }
-                                
-                                #profile-photo {
-                                    width: 28%;
-                                }
-                                
-                                #profile-photo:hover {
-                                    width: 30%;
-                                    transition: 1s;
-                                    -webkit-transition: 1s;
-                                    -moz-transition: 1s;
-                                    -ms-transition: 1s;
-                                    -o-transition: 1s;
-                                }
-                                
-                                #card-project {
-                                    width: 35%;
-                                }
-                                
-                                #contact-person {
-                                    text-decoration: none;
-                                }
-                                /* DEKSTOP VERSION
+        /* NAVBAR */
+    
+    .navbar-brand {
+        font-family: 'Roboto Slab';
+        font-size: 24px;
+    }
+    
+    .nav-link {
+        font-family: 'Roboto Slab';
+        font-size: 18px;
+    }
+    
+    #profile-photo {
+        width: 28%;
+    }
+    
+    #profile-photo:hover {
+        width: 30%;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    
+    #card-project {
+        width: 35%;
+    }
+    
+    #contact-person {
+        text-decoration: none;
+    }
+    /* UTILITY */
+    
+    .button-brand {
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        background-color: #B16117;
+    }
+    /* DEKSTOP VERSION
 // Large devices (desktops, 992px and up)*/
-                                
-                                @media (min-width: 992px) {
-                                    .nav-link {
-                                        margin-right: 20px;
-                                    }
-                                    .nav-link:hover::after {
-                                        content: '';
-                                        display: block;
-                                        border-bottom: 3px solid #FF0D0D;
-                                        width: 60%;
-                                        margin: auto;
-                                        padding-bottom: 5px;
-                                        margin-bottom: -8px;
-                                    }
+    
+    @media (min-width: 992px) {
+        .nav-link {
+            margin-right: 20px;
+        }
+        .nav-link:hover::after {
+            content: '';
+            display: block;
+            border-bottom: 3px solid #FF0D0D;
+            width: 60%;
+            margin: auto;
+            padding-bottom: 5px;
+            margin-bottom: -8px;
+        }
