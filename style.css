@@ -1,3 +1,10 @@
+/* NAVBAR */
+
+.navbar-brand {
+    font-family: 'Roboto Slab';
+    font-size: 24px;
+}
+
 #profile-photo {
     width: 28%;
 }
