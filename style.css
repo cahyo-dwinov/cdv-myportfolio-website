@@ -25,3 +25,14 @@
 #contact-person {
     text-decoration: none;
 }
+
+
+/* DEKSTOP VERSION
+// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+}
