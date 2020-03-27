@@ -5,14 +5,19 @@
 
 
 /* Start Navbar */
+.a .navbar-brand {
 
-.main-menu {
-    display: inline-block;
+    
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 24px;
+a.navbar-brand {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: black;
+}
+
+a.nav-link {
+    color: black;
 }
 
 
